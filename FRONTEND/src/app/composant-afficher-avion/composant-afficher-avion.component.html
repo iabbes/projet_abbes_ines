@@ -1,0 +1,14 @@
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="../../assets/avion.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{plane.airplane}}</h5>
+            <a class="btn btn-primary" (click)="AjouterALaListeShopping(plane)">Go</a>
+            <a class="btn btn-primary" (click)="SupprimerAvionListeShopping(plane)">Supprimer</a>
+            <a class="btn btn-primary" [routerLink]="['/avion/avion/',plane.id]">Détails</a>
+        </div>
+    </div>
+
+
+

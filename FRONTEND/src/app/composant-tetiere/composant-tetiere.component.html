@@ -1,0 +1,15 @@
+<nav class="navbar navbar-light bg-light">
+    <a [routerLink]="['/']" class="navbar-brand">Accueil</a>
+    <a [routerLink]="['/client']" class="navbar-brand">
+        Formulaire
+    </a>
+    <a [routerLink]="['/avion/listPlane']" class="navbar-brand">
+        Avion
+    </a>
+    <a [routerLink]="['/avion/panier']" class="navbar-brand"> 
+        Panier
+    </a>
+
+    Nombre avions dans panier : {{numberProduct$ | async}}
+  
+</nav>

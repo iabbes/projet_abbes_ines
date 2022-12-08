@@ -1,0 +1,44 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+FRONTEND/dist
+dist/
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+FRONTEND/node_modules
+FRONTEND/npm-debug.log
+FRONTEND/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+.angular/cache
+FRONTEND/.angular/cache
+.sass-cache/
+/FRONTEND/connect.lock
+/FRONTEND/coverage
+/FRONTEND/libpeerconnection.log
+FRONTEND/testem.log
+/FRONTEND/typings
+
+# System files
+FRONTEND/.DS_Store
+FRONTEND/Thumbs.db
