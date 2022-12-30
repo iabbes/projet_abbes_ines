@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tp06_abbes_ines": {
+    "projet_abbes_ines": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tp06_abbes_ines",
+            "outputPath": "dist/projet_abbes_ines",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -70,10 +70,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "tp06_abbes_ines:build:production"
+              "browserTarget": "projet_abbes_ines:build:production"
             },
             "development": {
-              "browserTarget": "tp06_abbes_ines:build:development"
+              "browserTarget": "projet_abbes_ines:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tp06_abbes_ines:build"
+            "browserTarget": "projet_abbes_ines:build"
           }
         },
         "test": {
