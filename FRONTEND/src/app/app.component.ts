@@ -7,4 +7,27 @@ import { ComposantAfficherAvionComponent } from './composant-afficher-avion/comp
 })
 export class AppComponent {
   title = 'projet_abbes_ines';
+
+  /*login(username: string, password: string) {
+    this.loginService.login(username, password).subscribe(
+      (response) => {
+        if (response.success) {
+          this.isConnected = true;
+        } else {
+          this.isConnected = false;
+          // Afficher une erreur pour l'utilisateur
+        }
+      },
+      (error) => {
+        this.isConnected = false;
+        // Afficher une erreur pour l'utilisateur
+      }
+    );
+  }
+
+  // logout() {
+  //   this.loginService.logout().subscribe(() => {
+  //     this.isConnected = false;
+  //   });
+  // }*/
 }
